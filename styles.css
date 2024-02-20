@@ -1,3 +1,5 @@
+/* Der Sinn der styles.css ist, die Farben, die Schreiftgröße/-art und das Aussehen aller Elemente in der HTML datei zu gestalten */
+
 html {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,6 +18,7 @@ table {
   }
   
 th {
+    border: 4px solid #dddddd;  
     background-color: #413d3d;
     text-align: left;
     padding: 8px;
@@ -29,4 +32,5 @@ td {
   
 tr:nth-child(even) {
     background-color: #474040;
+    
   }
